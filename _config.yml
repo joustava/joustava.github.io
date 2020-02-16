@@ -18,21 +18,62 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Joost Oostdijk
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-subtitle
+subtitle: My dumping ground for notes
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-name
+name: Joost Oostdijk
+email: joustava@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-url 
+url: "https://joostoostdijk.com" # the base hostname & protocol for your site, e.g. http://example.com
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-base-url
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+timezone: Europe/Berlin
+locale: "en"
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-repository
+repository: joustava/joustava.github.io
+permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author: Joost Oostdijk
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+twitter_username: joustava
+github_username:  joustava
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll # minima
+minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "https-joostoostdijk-com"
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
 plugins:
   - jekyll-feed
+
+jekyll_compose:
+  auto_open: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
