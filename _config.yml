@@ -68,6 +68,8 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
 
 twitter_username: joustava
 github_username:  joustava
