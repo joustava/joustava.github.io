@@ -40,6 +40,21 @@ repository: joustava/joustava.github.io
 permalink: /:categories/:title/
 
 defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _pages/about
+  - scope:
+      path: "about"
+      type: pages
+    values:
+      layout: splash
+      author_profile: true
+      # _posts
   - scope:
       path: ""
       type: posts
@@ -58,6 +73,28 @@ github_username:  joustava
 # Build settings
 theme: minimal-mistakes-jekyll # minima
 minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+words_per_minute: 150
+search: true
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-120964434-1"
+    anonymize_ip: false # default
+twitter:
+  username: "joustava"
+author:
+  name     : "Joost Oostdijk"
+  avatar   : "/assets/images/me/joost.png"
+  bio      : "My awesome biography constrained to a sentence or two goes here."
+  location : "Berlin, Germany"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/joustava"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/joustava"
+
 comments:
   provider: "disqus"
   disqus:
@@ -74,6 +111,9 @@ plugins:
 
 jekyll_compose:
   auto_open: true
+
+
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,13 @@
+// To make basic tweaks to minimal-mistakes theme’s style
+// Sass variables can be overridden here.
+
+/*
+ * Disabling animations
+ * You can disable either the fade-in intro animation, element transition animations, or both
+ * by overriding the corresponding variables.
+ * 
+ * For example if you wanted to disable all animations you 
+ * could include the following lines:
+ */
+$intro-transition  : none;
+$global-transition : none;
