@@ -10,6 +10,7 @@
 
 ### TODO ###
 
+- [ ] Update Bio
 - [ ] Migrate/Fix Disqus comment links.
 - [ ] Move tags and date info to top
 - [ ] Change title styling

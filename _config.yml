@@ -24,10 +24,11 @@ subtitle: My dumping ground for notes
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-name
 name: Joost Oostdijk
 email: joustava@gmail.com
+# Write an awesome description for your new site here. You can edit this
+# line in _config.yml. It will appear in your document head meta (for
+# Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    Mostly a technical blog containing articles about stuff I do and create in my free time.
 
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-url 
 url: "https://joostoostdijk.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -37,7 +38,7 @@ timezone: Europe/Berlin
 locale: "en"
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-repository
 repository: joustava/joustava.github.io
-permalink: /:categories/:title/
+#permalink: /:categories/:title/
 
 defaults:
   # _pages
@@ -115,7 +116,9 @@ include: ["_pages"]
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - README.md
+  - Makefile
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

@@ -4,7 +4,7 @@
 Joost Oostdijk:
     name     : "Joost Oostdijk"
     avatar   : "/assets/images/me/joost.png"
-    bio      : "My awesome biography constrained to a sentence or two goes here."
+    bio      : "Learning never stops!"
     location : "Berlin, Germany"
     links:
       - label: "Twitter"
@@ -13,3 +13,6 @@ Joost Oostdijk:
       - label: "GitHub"
         icon: "fab fa-fw fa-github"
         url: "https://github.com/joustava"
+      - label: "Bitbucket"
+        icon: "fab fa-fw fa-bitbucket"
+        url: "https://bitbucket.org/joustava"

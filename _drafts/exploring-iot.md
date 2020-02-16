@@ -14,7 +14,7 @@ with the code and have some basic project setup please get the boilerplate from 
 To start out simple I'll create a TCP server to which clients can connect and periodically send data to it. I'll first create a couple of components which, when put together, will act as an echo service.
 
 First we create a node tcp server.
-```
+```javascript
 // src/server.js
 import log from './logger';
 global.log = log;
@@ -27,7 +27,7 @@ export default server;
 ```
 
 The global logger is defined in a separate file
-```
+```javascript
 import pino from 'pino';
 
 let logger = pino();
@@ -39,7 +39,7 @@ The logger is using [pino](https://www.npmjs.com/package/pino) which I chose as 
 JSON formats. I make sure we can set the log level by supplying the env variable LOG_LEVEL.
 
 Then, we create a connection handler.
-```
+```javascript
 // src/handlers/echo.js
 
 export default function echo(connection) {
@@ -69,7 +69,7 @@ This handler will execute on every incoming connection, first we resolve the rem
 
 In order to make our echo service work we need to piece the parts together
 
-```
+```javascript
 // src/index.js
 import server from './server';
 import handleConnection from './handlers/echo';
@@ -82,7 +82,7 @@ server.listen(9000, () => {
 
 We add our echo handler to the server 'connection' event and then we start listening on port 9000.
 When we start the server with `npm start` you should see something like
-```
+```bash
 [nodemon] 1.11.0
 [nodemon] to restart at any time, enter `rs`
 [nodemon] watching: *.*
@@ -95,14 +95,14 @@ We can connect manually to this server from another shell session with
 
 
 The server will connect this tcp client and wait for incoming data to then echo it back.
-```
+```bash
 INFO [2017-01-29T17:11:43.845Z] (37385 on egel.fritz.box): new connection from ::1:49238
 ```
 
 In the client session we can now type some text and send it by pressing enter. You should see an echo almost immediately. Now this is not very interesting yet, but before we continue lets write a couple of tests for the echo service and learn how to minimize manual testing of functionality.
 The test framework used here is [mocha](https://github.com/mochajs/mocha).
 
-```
+```javascript
 // test/echo_server_test.js
 import Code from 'code';
 const { expect } = Code;
@@ -143,7 +143,7 @@ describe('Echo Server', () => {
 This test begins with importing the [code](https://github.com/hapijs/code) library which is a rewrite of Chai, this node library helps us asserting functionality in our test. We also import our server and the echo handler. We don't need to import index as we will plug in the components ourselves in the before hook. This is an end to end test. In the test we create a tcp client that connects to the server which we started in the before hook. Once the client is created we send a message to the server. We then wait for the echo on the clients data event and if it matches the original string, we're set. Note that we test asynchronous behaviour and we need to tell this to mocha by using the `done` callback.
 
 When we run the test with `npm test` we should see a result similar to
-```
+```bash
 > LOG_LEVEL=100 mocha --compilers js:babel-register
 
   Echo Server
@@ -171,7 +171,7 @@ The source device id. A string
 
 Messages will be transmitted in the JSON format. Lets create a new tests first to get an idea of what we'd like to achieve. The test client will now send a JSON message to our service. But, as we want validation to occur it is probably better to reply to the client with a status message that tells if the message was valid.
 
-```
+```javascript
 // test/telemetry_server_test.js
 import Code from 'code';
 const { expect } = Code;
@@ -240,7 +240,7 @@ Telemetry Server
 
 We need to create a new handler that only accepts JSON messages and validates them according to our validation rules.
 
-```
+```javascript
 // src/handlers/telemetry.js
 import jsonDuplexStream from 'json-duplex-stream';
 
@@ -273,7 +273,7 @@ This simply parses and then stringifies the data. This is still not very awesome
 is a valid JSON string. The error handler added to the duplex.in stream will be triggered when the client is sending malformed JSON.
 Lets skip our existing test for now and add a new test that handles this error case.
 
-```
+```javascript
 // test/telemetry_server_test.js
 import Code from 'code';
 const { expect } = Code;
@@ -338,7 +338,7 @@ Lets remove the skip statement from the first test and continue with trying to v
 For validation I will introduce [joi](https://github.com/hapijs/joi) into the project. joi makes it possible to
 validate JSON objects against a schema. So lets define a schema first.
 
-```
+```javascript
 // src/validators/telemetry-schema.js
 import Joi from 'joi';
 
@@ -352,7 +352,7 @@ export default Joi.object().keys({
 This simple Joi schema requires the message to contain an event, id and origin with string values and a data field containing on object.
 In the same folder, lets create a transform stream that uses this schema for validation.
 
-```
+```javascript
 // src/validators/index.js
 import { Transform } from 'stream';
 import Joi from 'joi';
@@ -379,7 +379,7 @@ Because we are using streams, and I want to reply with a status message we can c
 When a validation error occurs we create an error event by calling the done callback with the error. If everything is ok we create a reply
 that will be pushed further onto the stream. Now lets hook the validator into our main flow.
 
-```
+```javascript
 // src/handlers/telemetry.js
 import jsonDuplexStream from 'json-duplex-stream';
 import Validator from '../validators';
@@ -420,7 +420,7 @@ We require our new validator and configure it to handle data as objects instead 
 The validator stream is then added after the duplex.in stream. Our validator will emit en error event when the validation fails, we can handle this with the same onProtocolError function.
 
 Lets update the telemetry server tests again.
-```
+```javascript
 // test/telemetry_server_test.js
 import Code from 'code';
 const { expect } = Code;
@@ -506,7 +506,7 @@ I want to create a simple web page that updates each time new telemetry data com
 
 This first test simply checks if we receive a response once we connect to an SSE stream.
 
-```
+```javascript
 // test/sse_server_test.js
 import { expect } from 'code';
 
@@ -541,7 +541,7 @@ This test similar to the one we seen earlier. This time however our server will 
 a handler to the 'request' event. As a client we use an EventSource object that connects to our server. The object we use is a polyfill
 and can be used in browsers and in node. The API is similar to what we saw with the TCP client, here we need to listen to a different event 'message' which is the default name for an SSE event. Lets implement the server so our test passes.
 
-```
+```javascript
 // src/sse-server.js
 import http from 'http';
 import log from './logger';
@@ -553,9 +553,9 @@ export default server;
 ```
 
 First we instantiate a simple server object in its own file, if we later need to add some server specific configuration we can do it here.
-Then we create the request handler.
+Next we create the request handler.
 
-```
+```javascript
 import { Client } from 'sse';
 
 export default (req, res) => {
@@ -577,7 +577,7 @@ and emit data conform the message format onto this connection. That were a lot o
 
 First we'll update our sse server test.
 
-```
+```javascript
 import { expect } from 'code';
 import mockery from 'mockery';
 import server from '../src/sse-server';
@@ -650,17 +650,17 @@ I'm pretty new (read: never used) Vue.js but I heard some positive feedback abou
 As I only want to showcase some ways of visualizing data by using our API's, I won't delve into Vue.js too deeply, we'll use [vue-cli](https://github.com/vuejs/vue-cli) for setting up our project and create a basic scaffold based on browserify.
 
 First we need to install vue-cli, and we'll do that globally
-```
+```bash
 $ npm install -g vue-cli
 ```
 
 Then we'll init a new project by running
-```
+```bash
 $ vue init browserify vuedashboard
 ```
 
 You'll need to answer some questions by accepting the default (for this tutorial) and then run (as stated)
-```
+```bash
 $ cd vuedashboard
 $ npm install
 $ npm run dev
@@ -668,7 +668,7 @@ $ npm run dev
 
 This should open up a browser and serve a boilerplate app on localhost:8080. Before we continue we'll add three libraries
 to our package.json.
-```
+```bash
 $ npm i --save eventsource vuex
 $ npm i --save-dev sinon
 ```
@@ -679,7 +679,7 @@ automatically whenever the application state changes. Sinon is a library to crea
 As we only need sinon in our tests, we install it as a dev dependency.
 
 Lets first implement a service that connects incoming sse messages to a store.
-```
+```javascript
 // src/services/SseService.js
 import EventSource from 'eventsource';
 
@@ -713,7 +713,7 @@ which when invoked will create a new EventSource. All the default EventSource ev
 calls on the store. So, at this point the service only supports receiving EventSource events with the event type message.
 
 The test for this service is a bit more involved.
-```
+```javascript
 // test/unit/SseService.spec.js
 import SseService from '../../src/services/SseService';
 import sinon from 'sinon';
@@ -766,7 +766,7 @@ and we only validate a service contract at this point. To be able to create cann
 test different use cases. After setting up the responses we try to create an sse connection with our service. Then we trigger a response from the fake server. At last we set an expectation on the store that tells us if we have dispatched a certain message or not.
 
 Now that we have a mechanimsm in place to update our store with sse event data, lets implement the actual store.
-```
+```javascript
 // src/store/index.js
 import Vue from 'vue'
 import Vuex from 'vuex'
@@ -833,7 +833,7 @@ export default new Vuex.Store(options);
 First we import vue and vuex and then tell vue that we want to use Vuex. Then we create a state object that holds the initial state
 of our store. Then we create the actions, these are called whenever we dispatch an matching event on the store (as we did in the SseService), in this example the actions delegate straight to the store mutations, but if data was needed from an async source we would handle that here. The mutations are the central place where the store state can be changed. Then we gather the state, mutations and actions into an options object which we pass to the Vuex.store constructor and voila, we have a store for our app. As you might have noticed, the mutations are also exported from  this module, this is done so we can easily test them.
 
-```
+```javascript
 // test/unit/store.spec.js
 import store from '../../src/store';
 import { mutations } from '../../src/store';
@@ -878,7 +878,7 @@ we can simply pass in a mock state object and validate if the expected mutation 
 The main idea of having a dashboard is to be able to show something, so lets finally implement some Vue components that can display our telemetry
 data. Because we use vue-cli to manage this project we can create single file components, which means that everything related to a component such as
 its template, styling and javascript can be found in the same source file. The first component we create is a very simple list item.
-```
+```javascript
 // src/components/Device.vue
 <template>
   <li class="flex-item normal">
@@ -921,7 +921,7 @@ we find a very simple component object, it only has a name which maps to an html
 the component. Some styling can be applied with conventional css.
 
 In the next component we will use the device component we created earlier. The DeviceList is also a single file component, we give it the name 'devices' and make it dependent on the Device component. The DeviceList component, when mounted, will attempt to connect to our sse service. As this component is connected to the same store as our sse service we are able to receive the updates to the store and one way we can do that is through computed properties of the component. The connected property will update every time the connected state of the store changes. Each time the devices state updates, the list component will rerender the list with the updated data. When there are no devices, an informative message will be displayed instead of an empty list.
-```
+```javascript
 // src/components/DeviceList.vue
 <template>
   <div>
