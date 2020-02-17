@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Migrated joostoostdijk.com to Jekyll!"
 date:   2020-02-16 12:48:26 +0100
 categories: jekyll update migration

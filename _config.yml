@@ -76,8 +76,11 @@ twitter_username: joustava
 github_username:  joustava
 
 # Build settings
-theme: minimal-mistakes-jekyll # minima
+
+remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+
 words_per_minute: 150
 search: true
 analytics:
@@ -101,6 +104,7 @@ tag_archive:
 
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 jekyll_compose:
   auto_open: true
