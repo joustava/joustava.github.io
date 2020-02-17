@@ -1,7 +1,7 @@
 ---
 title: hello-avr
 draft: true
-abbrlink: 16774
+#abbrlink: 16774
 date: 2017-11-01 20:39:55
 tags:
 ---

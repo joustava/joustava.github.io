@@ -1,7 +1,6 @@
 ---
 title: Developing with an Onion Omega
 description: Setting up a simple development environment for Onion Omega
-draft: false
 tags:
   - Omega
   - Node.js

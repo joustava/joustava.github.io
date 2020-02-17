@@ -1,6 +1,6 @@
 ---
 title: Exploring CAN bus
-abbrlink: 46295
+#abbrlink: 46295
 ---
 
 This time I want to explore the [CAN bus](https://en.wikipedia.org/wiki/CAN_bus) standard, it defines a protocol that enables micro controllers to communicate with each other without a central host device. This might be interesting in the context of IoT.

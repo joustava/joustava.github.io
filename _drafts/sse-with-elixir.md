@@ -1,6 +1,6 @@
 ---
 title: SSE with elixir
-abbrlink: 29323
+#abbrlink: 29323
 ---
 intro...
 

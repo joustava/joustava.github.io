@@ -1,6 +1,6 @@
 ---
 title: 'Exploring IoT with Node.js'
-abbrlink: 30386
+#abbrlink: 30386
 ---
 
 I've been toying a while with the idea to create a small IoT network for personal use as I own several
