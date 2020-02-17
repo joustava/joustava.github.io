@@ -106,7 +106,7 @@ jekyll_compose:
   auto_open: true
 
 
-include: ["_pages"]
+include: ["_pages", "_layouts"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
