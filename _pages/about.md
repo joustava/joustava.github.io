@@ -9,4 +9,4 @@ Currently I am involved in building solutions for iOS with Swift.
 
 Part of my spare time is reserved for tinkering with micro-controllers and subjects such as BlueTooth LE and C programming. The rest of my time I like to spend on cycling, hiking and reading.
 
-If you like what your read, or if you have some constructive feedback, don't hesitate to comment on the repsective articles. You can also contact me via my profile links.
+If you like what your read, or if you have some constructive feedback, don't hesitate to comment on the respective articles. You can also contact me via my profile links.
