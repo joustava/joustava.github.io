@@ -38,10 +38,14 @@ timezone: Europe/Berlin
 locale: "en"
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-repository
 repository: joustava/joustava.github.io
-#permalink: /:categories/:title/
 permalink: /posts/:title
 
 defaults:
+  - # sitemap ignores
+    scope:
+      path: "_layouts/**/*.html"
+    values:
+      sitemap: false
   # _pages
   - scope:
       path: ""
