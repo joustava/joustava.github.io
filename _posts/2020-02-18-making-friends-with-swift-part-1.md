@@ -1,5 +1,5 @@
 ---
-title: Making friends with Swift
+title: Making friends with Swift, part 1
 categories:
 - Series
 - Programming
@@ -8,6 +8,7 @@ tags:
 - Swift
 - FP
 - TDD
+date: 2020-02-18 08:09 +0100
 ---
 I have been dabbling in iOS for about a year now. Using XCode for development, Carthage or Swift Package Manager for dependency management. Unfortunately, I have not come to like the development feedback cycle mainly due to Xcode, and in any case, I'm not a fan of most IDE's, there is always some specific way to configure projects, or dabbling around in UI to find some particular build settings that might as well have been put in a human readable file. Don't get me wrong though, IDE's have their place, I just don't like to become dependent on them. 
 
@@ -46,8 +47,18 @@ Creating Tests/LinuxMain.swift
 Creating Tests/SnakeCorePackageTests/
 Creating Tests/SnakeCorePackageTests/SnakeCorePackageTests.swift
 Creating Tests/SnakeCorePackageTests/XCTestManifests.swift
+```
+
+Then build it for good measure
+
+```shell
 $ swift build
 [2/2] Merging module SnakeCorePackage
+```
+
+And before we go further, run the tests.
+
+```shell
 $ swift test
 [4/4] Linking SnakeCorePackagePackageTests
 Test Suite 'All tests' started at 2020-02-15 16:59:41.856
@@ -63,7 +74,7 @@ Test Suite 'All tests' passed at 2020-02-15 16:59:42.038.
 	 Executed 1 test, with 0 failures (0 unexpected) in 0.180 (0.182) seconds
 ```
 
-If the dummy test doesn't pass, please check your output for errors  and fix your setup before going further. If you have all green your good to go. It's common practice to commit working changes to Git.
+If the dummy test doesn't pass, please check your output for errors  and fix your setup before going further. If you have all green you're good to go. It's common practice to commit working changes to Git.
 
 ```bash
 $ git init
@@ -84,7 +95,7 @@ SnakeCorePackageTests
 	 Executed 1 test, with 0 failures (0 unexpected) in 0.141 (0.141) seconds
 ```
 
-There are a few other options to generate different styles of reports. The command has some oddity going on as swift test output needs to be redirected to stdin but I'll wrap this into Makefile, so we won't have to remember this. In the project root add a file named `Makefile` with the following content
+There are a few other options to generate different styles of reports. The command has some oddity going on as swift test output needs to be redirected to stdin but I'll wrap this into a Makefile, so we won't have to remember this. In the project root add a file named `Makefile` with the following content
 
 ```makefile
 #!make

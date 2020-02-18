@@ -39,6 +39,7 @@ locale: "en"
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-repository
 repository: joustava/joustava.github.io
 #permalink: /:categories/:title/
+permalink: /posts/:title
 
 defaults:
   # _pages
