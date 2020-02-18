@@ -261,7 +261,8 @@ DEPENDENCIES
   github-pages
   jekyll-compose (~> 0.12)
   jekyll-feed (~> 0.12)
-  jekyll-gist
+  jekyll-gist (= 1.5.0)
+  jekyll-sitemap (= 1.4.0)
   minimal-mistakes-jekyll
   tzinfo (~> 1.2)
   tzinfo-data
