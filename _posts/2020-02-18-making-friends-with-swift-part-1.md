@@ -303,7 +303,7 @@ index 9798f3f..039eae4 100644
 
 Well, we diverged a little here. We probably could have fixed the allTest issue by just removing the properties only. I however like to give my fellow developers a smooth setup experience, even if they choose to run Linux. I have no means to actually check this setup on a Linux machine (sorry!) so if you do, please let me know if this works for you.
 
-It's that time to commit again. We didn't get far with designing our Snake core but we have tackled our setup and from now on we should be able to proceed relatively smooth. I need a breather. In the next part we will start creating our snake module. See you there!
+It's that time to commit again. We didn't get far with designing our Snake core but we have tackled our setup and from now on we should be able to proceed relatively smooth. I need a breather. In [part 2]({% post_url 2020-02-22-making-friends-with-swift-part-2 %}) we will start creating our snake module. See you there!
 
 ## Attribution
 

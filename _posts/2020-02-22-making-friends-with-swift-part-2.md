@@ -8,8 +8,9 @@ tags:
 - Swift
 - FP
 - TDD
+date: 2020-02-22 16:53 +0100
 ---
-In the [first part]({% link _posts/2020-02-18-making-friends-with-swift-part-1.md %}) of this series, we prepared our environment. This time we'll tackle the initial implementation of our Snake. But before we make our hands dirty, lets make a list of Snake behaviour that we need in our game.
+In the [first part]({% post_url 2020-02-18-making-friends-with-swift-part-1 %}) of this series, we prepared our environment. This time we'll tackle the initial implementation of our Snake. But before we make our hands dirty, lets make a list of Snake behaviour that we need in our game.
 
 **A snake:**
 
@@ -421,7 +422,7 @@ SnakeTests
 	 Executed 11 tests, with 0 failures (0 unexpected) in 0.103 (0.104) seconds
 ```
 
-That should be it for the Snake behaviour, at least for what we know we need at this time. There are some little details left in the implementation which I'm not content with. But as bedtime is closing in, I'll keep those fixes for the next post. 
+That should be it for the Snake behaviour, at least for what we know we need at this time. There are some little details left in the implementation which I'm not content with. But as bedtime was closing in, I'll keep those fixes for the next post.
 
 ## Attribution
 
