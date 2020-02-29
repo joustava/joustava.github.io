@@ -14,11 +14,11 @@ In the [first part]({% post_url 2020-02-18-making-friends-with-swift-part-1 %}) 
 
 **A snake:**
 
-- [ ] is a dot controlled by the player.
-- [ ] moves on the player field.
-- [ ] leaves a trail behind
-- [ ] dies when it hits itself
-- [ ] dies when it hits the edge of the player field.
+- is a dot controlled by the player.
+- moves on the player field.
+- leaves a trail behind
+- dies when it hits itself
+- dies when it hits the edge of the player field.
 
 We might need more features, but for now this is something we can work with. We can always edit this list if needed.
 
