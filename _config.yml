@@ -62,7 +62,21 @@ defaults:
       layout: splash
       author: Joost Oostdijk
       author_profile: true
-      # _posts
+  # _drafts
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: single
+      author: Joost Oostdijk
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -85,8 +99,8 @@ github_username:  joustava
 remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
-
-words_per_minute: 150
+# In technical material, the average reading rate is approx 50 to 75 words a minute roughly 5 to 6 minutes per page.
+words_per_minute: 100
 search: true
 analytics:
   provider: "google-gtag"
@@ -111,6 +125,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-last-modified-at
 
 jekyll_compose:
   auto_open: true
