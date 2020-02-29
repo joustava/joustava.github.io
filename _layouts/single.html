@@ -34,9 +34,7 @@ layout: default
           {% if page.date %}
              | <i class="fas fa-upload" aria-hidden="true"></i> {{ page.date | date: "%B %d, %Y" }}
           {% endif %}
-          {% if page.last_modified_at %}
-             | <i class="far fa-edit" aria-hidden="true"></i></i> {% last_modified_at %B %d, %Y %}
-          {% endif %}
+          
          </p>
         </header>
       {% endunless %}
@@ -62,9 +60,7 @@ layout: default
         {% if page.date %}
           <p class="page__date"><strong><i class="fas fa-upload" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
         {% endif %}
-        {% if page.last_modified_at %}
-          <p class="page__date"><strong><i class="far fa-edit" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y" }}</time></p>
-        {% endif %}
+        
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
