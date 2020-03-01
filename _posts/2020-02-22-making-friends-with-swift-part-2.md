@@ -422,7 +422,7 @@ SnakeTests
 	 Executed 11 tests, with 0 failures (0 unexpected) in 0.103 (0.104) seconds
 ```
 
-That should be it for the Snake behaviour, at least for what we know we need at this time. There are some little details left in the implementation which I'm not content with. But as bedtime was closing in, I'll keep those fixes for the next post.
+That should be it for the Snake behaviour, at least for what we know we need at this time. There are some little details left in the implementation which I'm not content with. But as bedtime was closing in, I'll keep those fixes for the [next post]({% post_url 2020-03-01-making-friends-with-swift-part-3 %}).
 
 ## Attribution
 

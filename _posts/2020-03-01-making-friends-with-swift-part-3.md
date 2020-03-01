@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Making friends with Swift, part 3
+date: 2020-03-01 18:10 +0100
 ---
 As promised [previously]({ post_url 2020-02-22-making-friends-with-swift-part-2 }), we'll look at some things we could improve in our current state of the project and add some more functionality.
 
@@ -158,7 +159,7 @@ final class SnakeTests: XCTestCase {
 
 Lets add a linter to our project so whoever is working on this particular project will use the same code style as we do. Especially since I try avoid using xcode I need to setup the linter to run whenver needed. For now let's add a few scripts to our Makefile.
 
-```Makefile
+```
 #!make
 
 # Default target for watch to run on file changes.
