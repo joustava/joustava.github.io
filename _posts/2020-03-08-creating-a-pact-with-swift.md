@@ -5,7 +5,7 @@ date: 2020-03-08 18:11 +0100
 ---
 [Fast, easy and reliable testing for your APIs and microservices during development](https://docs.pact.io/)' is the tag line for Pact. This sure sounds promising, but how does it impact the development of client applications that use these services? This post will give some basic overview what is needed for a Swift client of an http service. The code for this article can be found from this [repo](joustava_act-article-example-project)
 
-### Example client and server
+## Example client and server
 
 We will look at how we could implement a development workflow with PACT in the context of a consumer made in Swift and a Provider created in node.js. I've already created the provider and consumer code examples so we can start right away. We will also use docker for setting up some of the tools provided by Pact to get an idea of what is involved.
 
@@ -212,7 +212,7 @@ mobileTests.IntegrationTests
 
 Yes, in this case the errors were simulated on purpose but these things can happen during actual integration testing. These issues can result in frustration and loosing a lot of time.
 
-### PACT
+## PACT
 
 Pact aims to help with increasing the front and backend service integration quality by creating a common language. In contrast to integration tests, consumer tests are relatively easy to setup and maintain, give fast feedback, are more stable and make it easier to find out where potential errors or bugs are located within the stack.
 
@@ -222,7 +222,7 @@ We'll use the [pact-cli](https://hub.docker.com/r/pactfoundation/pact-cli) docke
 
 If you look at the `pact-cli` docker image examples you will see the different services it supports. I've included a Makefile within the project with the commands needed for the examples in this article. There is no need for us to download anything directly, docker will take care off this under the hood.
 
-### Consumer Driven Testing
+## Consumer Driven Testing
 
 First fire up the pact mock server with `$ make pact-mock-run`  . You'll see something like this
 
@@ -354,7 +354,7 @@ Here is the contract generated as an artifact by the pact-mock-server. It is a j
 
 As mentioned before, this file can be shared with other developers that would maintain a service on which the client depends. This sharing can be done automatically via a Pact broker. Once the service developer receives the contract they can run provider tests or verifications with them. We won't look at that here though (I might update this post later).
 
-### Provider stub
+## Provider stub
 
 Pact also supplies us with a stubbing service, that will serve stubbed data based on a contract we generated before with our consumer tests. I think this is really great: You can first design your client implementation with the help of the pact mock, then backend could verify this in their own pace, but you would be able to demo your frontend code with data served by the Pact stub. This all only based on tests you wrote once.
 
@@ -449,7 +449,7 @@ IntegrationTests
 	 Executed 1 test, with 0 failures (0 unexpected) in 0.193 (0.194) seconds
 ```
 
-### Conclusion
+## Conclusion
 
 Pact seems to give some nice features for decentralized testing of microservices and their clients. It didn't take us so much time to setup those tools needed for consumer testing and we basically got a stub service for free based on our test results. No more maintaining test fixtures AND stub data for demos!
 
