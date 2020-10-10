@@ -1,18 +1,21 @@
 # See: https://mmistakes.github.io/minimal-mistakes/docs/authors/
 # Multiple Authors can be configured in this file.
-# 
+#
 Joost Oostdijk:
-    name     : "Joost Oostdijk"
-    avatar   : "/assets/images/me/joost.png"
-    bio      : "Learning never stops!"
-    location : "Berlin, Germany"
-    links:
-      - label: "Twitter"
-        icon: "fab fa-fw fa-twitter-square"
-        url: "https://twitter.com/joustava"
-      - label: "GitHub"
-        icon: "fab fa-fw fa-github"
-        url: "https://github.com/joustava"
-      - label: "Bitbucket"
-        icon: "fab fa-fw fa-bitbucket"
-        url: "https://bitbucket.org/joustava"
+  name: "Joost Oostdijk"
+  avatar: "/assets/images/me/joost.png"
+  bio: "Learning never stops!"
+  location: "Berlin, Germany"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/joustava"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/joustava"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/joustava"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/joostoostdijk/"

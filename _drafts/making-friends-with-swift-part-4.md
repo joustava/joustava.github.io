@@ -8,3 +8,4 @@ I've been going blind. Maybe much better to show a simple mac app showing a grid
 ## Attribution
 
 https://www.hackingwithswift.com/example-code/system/how-to-synchronize-code-to-drawing-using-cadisplaylink
+https://www.bloc.io/swiftris-build-your-first-ios-game-with-swift
