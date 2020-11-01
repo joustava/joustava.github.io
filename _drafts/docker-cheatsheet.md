@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Docker Cheatsheet
 ---
 
@@ -42,7 +41,7 @@ CMD cmd
 - `docker-compose up` run those containers defined in a docker-compose.yml
 - `docker-compose up --build`  rebuild and run the containers defined in docker-compose.yml
 - `docker-compose down` stop and remove containers defined in docker-compose.yml
--  `docker-compose ps` status of containers defined in docker-compose.yml
+- `docker-compose ps` status of containers defined in docker-compose.yml
 
  ```yaml
 version: '3'
