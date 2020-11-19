@@ -6,4 +6,9 @@ qa:
 	JEKYLL_ENV=production \
 	bundle exec jekyll serve
 
-.PHONY: develop
+deploy:
+	JEKYLL_ENV=production \
+	bundle exec jekyll build
+	# git push origin main
+
+.PHONY: develop drafts deploy
