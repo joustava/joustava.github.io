@@ -2,7 +2,6 @@
 title: Free learning resources
 permalink: /resources/
 ---
-
 > Not in any specific order. List grows as I bump into more.
 
 - [Neural Network Design](https://hagan.okstate.edu/NNDesign.pdf)
