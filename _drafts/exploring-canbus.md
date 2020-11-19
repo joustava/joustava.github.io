@@ -5,7 +5,7 @@ title: Exploring CAN bus
 
 This time I want to explore the [CAN bus](https://en.wikipedia.org/wiki/CAN_bus) standard, it defines a protocol that enables micro controllers to communicate with each other without a central host device. This might be interesting in the context of IoT.
 
-Most of the information concerning can be found in specifications and white papers published by Bosch, where CAN bus was developed initially.
+Most of the information concerning this topic can be found in specifications and white papers published by Bosch, where CAN bus was developed initially.
 
 # Python implementation
 

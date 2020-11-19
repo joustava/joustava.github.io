@@ -1,10 +1,12 @@
 # main links
-main:   
-    - title: "About"
-      url: /about/
-    # - title: "Sample Posts"
-    #   url: /year-archive/
-    # - title: "Sample Collections"
-    #   url: /collection-archive/
-    # - title: "Sitemap"
-    #   url: /sitemap/
+main:
+  - title: "About"
+    url: /about/
+  - title: "Learning"
+    url: /resources/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

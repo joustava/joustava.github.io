@@ -1,6 +1,6 @@
 # BDD
 
-> Behaviour Driven Development (BDD) is a collaborative approach, made up of three practices: Discovery Formulation and Automation.
+> Behaviour Driven Development (BDD) is a collaborative approach, made up of three practices: Discovery, Formulation and Automation.
 
 
 

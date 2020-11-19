@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -28,9 +28,9 @@ email: joustava@gmail.com
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-    Mostly a technical blog containing articles about stuff I do and create in my free time.
+  Mostly a technical blog containing articles about stuff I do and create in my free time.
 
-# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-url 
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-url
 url: "https://joostoostdijk.com" # the base hostname & protocol for your site, e.g. http://example.com
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-base-url
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -39,6 +39,16 @@ locale: "en"
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-repository
 repository: joustava/joustava.github.io
 permalink: /posts/:title
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  blanklines: false
+  profile: false
+  startings: all
+  # ignore:
+  #   envs: development # disable compression in dev environment
 
 defaults:
   - # sitemap ignores
@@ -54,14 +64,22 @@ defaults:
       layout: single
       author_profile: true
       author: Joost Oostdijk
-  # _pages/about
-  - scope:
-      path: "about"
-      type: pages
-    values:
-      layout: splash
-      author: Joost Oostdijk
-      author_profile: true
+  # # _pages/about
+  # - scope:
+  #     path: "about"
+  #     type: pages
+  #   values:
+  #     layout: splash
+  #     author: Joost Oostdijk
+  #     author_profile: true
+  # # _pages/resources
+  # - scope:
+  #     path: "resources"
+  #     type: pages
+  #   values:
+  #     layout: splash
+  #     author: Joost Oostdijk
+  #     author_profile: true
   # _drafts
   - scope:
       path: ""
@@ -71,6 +89,7 @@ defaults:
       author: Joost Oostdijk
       author_profile: true
       read_time: true
+      show_date: true
       comments: true
       share: true
       related: true
@@ -85,6 +104,7 @@ defaults:
       author: Joost Oostdijk
       author_profile: true
       read_time: true
+      show_date: true
       comments: true
       share: true
       related: true
@@ -92,11 +112,11 @@ defaults:
       toc_sticky: true
 
 twitter_username: joustava
-github_username:  joustava
+github_username: joustava
 
 # Build settings
 
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
+remote_theme: mmistakes/minimal-mistakes #@4.20.2
 minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # In technical material, the average reading rate is approx 50 to 75 words a minute roughly 5 to 6 minutes per page.
@@ -120,6 +140,16 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 plugins:
   - jekyll-feed
@@ -129,7 +159,6 @@ plugins:
 
 jekyll_compose:
   auto_open: true
-
 
 include: ["_pages", "_layouts"]
 
