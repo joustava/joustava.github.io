@@ -64,23 +64,6 @@ defaults:
       layout: single
       author_profile: true
       author: Joost Oostdijk
-  # # _pages/about
-  # - scope:
-  #     path: "about"
-  #     type: pages
-  #   values:
-  #     layout: splash
-  #     author: Joost Oostdijk
-  #     author_profile: true
-  # # _pages/resources
-  # - scope:
-  #     path: "resources"
-  #     type: pages
-  #   values:
-  #     layout: splash
-  #     author: Joost Oostdijk
-  #     author_profile: true
-  # _drafts
   - scope:
       path: ""
       type: drafts
