@@ -1,4 +1,4 @@
-drafts:
+develop:
 	JEKYLL_ENV=production \
 	bundle exec jekyll serve --drafts
 
@@ -11,4 +11,4 @@ deploy:
 	bundle exec jekyll build
 	git push origin main
 
-.PHONY: develop drafts deploy
+.PHONY: develop qa deploy

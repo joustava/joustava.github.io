@@ -2,6 +2,7 @@
 
 ### Infra ###
 
+- Static web site generator [jekyll](https://jekyllrb.com/)
 - Source is hosted on [Bitbucket](https://bitbucket.org/)
 - Build is deployed to [GitHub Pages](https://pages.github.com/)
 - Domain is managed through [GoDaddy](https://godaddy.com/)

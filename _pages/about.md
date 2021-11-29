@@ -8,8 +8,8 @@ I've been active in the software industry for over 12 years and build solutions 
 
 Part of my spare time is reserved for tinkering with micro-controllers and subjects such as BlueTooth LE and C programming. The rest of my time I like to spend on cycling, woodworking, hiking and reading.
 
-Also, I am following courses on Udacity in the school of Autonomous Systems.
-In October 2020 I completed the 4 month *Intro to Self-Driving Cars ND*, currently I am enrolled into
-the 6 month *Self-Driving Car Engineer ND*.
+Also, I am followed courses on Udacity in the school of Autonomous Systems.
+In October 2020 I completed the 4 month *Intro to Self-Driving Cars ND*, and completed
+the 6 month *Self-Driving Car Engineer ND* April 2021.
 
 If you like what your read, or if you have some constructive feedback, don't hesitate to comment on the respective articles. You can also contact me via my profile links.

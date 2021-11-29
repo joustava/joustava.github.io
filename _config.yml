@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Joost Oostdijk
+title:
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-subtitle
-subtitle: My dumping ground for notes
+subtitle:
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-name
 name: Joost Oostdijk
 email: joustava@gmail.com
@@ -28,13 +28,13 @@ email: joustava@gmail.com
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  Mostly a technical blog containing articles about stuff I do and create in my free time.
+  Articles about stuff I do and create in my free time.
 
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-url
 url: "https://joostoostdijk.com" # the base hostname & protocol for your site, e.g. http://example.com
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-base-url
 baseurl: "" # the subpath of your site, e.g. /blog
-timezone: Europe/Berlin
+timezone: Europe/Helsinki
 locale: "en"
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-repository
 repository: joustava/joustava.github.io
@@ -103,7 +103,7 @@ github_username: joustava
 # Build settings
 
 remote_theme: mmistakes/minimal-mistakes #@4.20.2
-minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # In technical material, the average reading rate is approx 50 to 75 words a minute roughly 5 to 6 minutes per page.
 words_per_minute: 100
