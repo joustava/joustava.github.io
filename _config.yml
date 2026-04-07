@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Joost oostdijk
+title: Joost Oostdijk
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-subtitle
 subtitle:
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-name
@@ -28,7 +28,7 @@ email: joustava@gmail.com
 # line in _config.yml. It will appear in your document head meta (for
 # Google search results) and in your feed.xml site description.
 description: >- # this means to ignore newlines until "baseurl:"
-  Articles about stuff I do and create in my free time.
+  Notes on software, hardware, AI, cycling, forestry and whatever else I'm tinkering with.
 
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-url
 url: "https://www.joostoostdijk.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -102,24 +102,17 @@ github_username: joustava
 
 # Build settings
 
-remote_theme: mmistakes/minimal-mistakes #@4.20.2
+remote_theme: mmistakes/minimal-mistakes@4.28.0
 minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # In technical material, the average reading rate is approx 50 to 75 words a minute roughly 5 to 6 minutes per page.
 words_per_minute: 100
 search: true
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-120964434-1"
-    anonymize_ip: false # default
 twitter:
   username: "joustava"
 
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "https-joostoostdijk-com"
+# analytics: disabled — UA was sunset in 2023, configure GA4 or Plausible when ready
+# comments: disabled — Disqus removed (ads/tracking); consider giscus or utterances later
 category_archive:
   type: liquid
   path: /categories/

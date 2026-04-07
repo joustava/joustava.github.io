@@ -4,12 +4,16 @@ permalink: /about/
 ---
 This blog is an amalgamation of notes I make while working on spare-time projects or new things I learn.
 
-I've been active in the software industry for over 12 years and build solutions with the help of C, JavaScript, Ruby, Elixir and Docker. Most of these where backend systems and the occasional prototypes build with Vue.js, React or React-Native.
+I've been active in the software industry for over 14 years, building backend systems and the occasional prototype in C, JavaScript, Ruby, Elixir and Docker — with some Vue.js and React sprinkled in.
 
-Part of my spare time is reserved for tinkering with micro-controllers and subjects such as BlueTooth LE and C programming. The rest of my time I like to spend on cycling, woodworking, hiking and reading.
+Current interests:
 
-Also, I am followed courses on Udacity in the school of Autonomous Systems.
-In October 2020 I completed the 4 month *Intro to Self-Driving Cars ND*, and completed
-the 6 month *Self-Driving Car Engineer ND* April 2021.
+- **AI & LLMs** — experimenting with agents, tooling, and what this all means for how we build software
+- **Embedded systems & hardware** — microcontrollers, Bluetooth LE, IoT tinkering
+- **Cycling** — riding roads and trails around Pirkanmaa
+- **Forestry** — learning to read and manage forest land in Finland
+- **Woodworking** — building things with my hands when the weather says no
 
-If you like what your read, or if you have some constructive feedback, don't hesitate to comment on the respective articles. You can also contact me via my profile links.
+In April 2021 I completed the *Self-Driving Car Engineer Nanodegree* on Udacity.
+
+Feel free to reach out via the profile links.
