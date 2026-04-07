@@ -1,7 +1,7 @@
 ---
 title: "AVR development part 2: Flashing the Atmel AVR ATtiny85"
 categories: [hardware, avr]
-tags: [avr, raspberry, electronics]
+tags: [AVR, Raspberry Pi, electronics]
 date: 2017-11-09 21:02:01
 ---
 

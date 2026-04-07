@@ -2,7 +2,7 @@
 title: Service configuration with procd
 description: Service configuration with procd
 categories: [hardware, iot]
-tags: [OpenWrt, procd, Onion, Omega]
+tags: [OpenWrt, procd, Onion Omega]
 date: 2017-05-20 08:13:36 +0100
 ---
 

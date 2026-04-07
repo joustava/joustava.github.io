@@ -1,13 +1,7 @@
 ---
 title: Raspberry Pi camera setup
-categories:
-- Series
-- Python
-tags:
-- OpenCV
-- Python
-- Raspberry Pi
-- Picamera
+categories: [hardware, raspberry-pi]
+tags: [OpenCV, Python, Raspberry Pi, picamera]
 date: 2020-11-01 17:32 +0100
 ---
 The dark tinkering months have started again, and so I bought a 5 Mega pixel camera for my Raspberry Pi to use for learing OpenCV with Python. This article is a summary of how to set up the camera for wireless video streaming over your home wifi.
