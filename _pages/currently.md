@@ -14,7 +14,7 @@ Still waiting. Too cold in Pirkanmaa to be anything but optimistic about it.
 
 **Forestry**
 
-Taking a forestry management course — learning how to read forest health, plan harvests, and generally not ruin the land you're responsible for.
+Taking a forestry management course — understanding forest health, planning harvests, and generally not ruining the land you're responsible for.
 
 **AI / LLMs**
 
