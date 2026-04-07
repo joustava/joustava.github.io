@@ -29,6 +29,9 @@ toc: true
 comments:
   provider: ""
 
+paginate: 10
+paginate_path: "/page:num/"
+
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
@@ -83,3 +86,4 @@ exclude:
 
 plugins:
   - jekyll-gist
+  - jekyll-paginate

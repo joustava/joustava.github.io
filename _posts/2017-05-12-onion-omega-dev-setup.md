@@ -1,11 +1,8 @@
 ---
 title: Developing with an Onion Omega
 description: Setting up a simple development environment for Onion Omega
-tags:
-  - Omega
-  - Node.js
-  - rsync
-  - OpenWrt
+categories: [hardware, iot]
+tags: [Omega, Node.js, rsync, OpenWrt]
 date: 2017-05-12 08:07:33 +0100
 ---
 This article will go through the steps to setup a simple development environment for the Onion Omega. With the help of some simple scripts and trivial configuration it is possible to increase the speed of the development cycle. Instead of ssh-ing into the device and using vi(m), after completion of the setup, you will be able to develop with the tools you are used to, test the code, and deploy to the Onion Omega in one fluent motion.
