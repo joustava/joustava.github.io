@@ -1,18 +1,23 @@
-# Joost Blog
+# joostoostdijk.com
 
-### Infra ###
+Personal blog built with [Jekyll](https://jekyllrb.com/) and the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, hosted on [GitHub Pages](https://pages.github.com/).
 
-- Static web site generator [jekyll](https://jekyllrb.com/)
-- Source is hosted on [Bitbucket](https://bitbucket.org/)
-- Build is deployed to [GitHub Pages](https://pages.github.com/)
-- Domain is managed through [GoDaddy](https://godaddy.com/)
-- Comment feature is handled through [Disqus](https://disqus.com/)
-- SSL, CDN and Limited DDoS protection is taken care of by [Cloudflare](https://www.cloudflare.com/welcome) (Free Plan)
-- Analytics with [Google Analytics](https://analytics.google.com/)
+## Stack
 
-### TODO ###
+- Static site: Jekyll + Minimal Mistakes theme
+- Hosting: GitHub Pages
+- Domain: managed via GoDaddy
+- CDN / SSL: Cloudflare (free plan)
 
-- [ ] Update Bio
-- [ ] Move tags and date info to top
-- [ ] Change title styling
-- [ ] Dockerize
+## Local development
+
+Requires [mise](https://mise.jdx.dev/) for Ruby version management.
+
+```sh
+mise install        # install Ruby 3.3.11
+bundle install      # install gems
+
+just develop        # serve with drafts at http://localhost:4000
+just qa             # serve without drafts
+just deploy         # build + push to main
+```
