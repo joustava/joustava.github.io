@@ -1,7 +1,8 @@
 ---
-title: Resources
-permalink: /resources/
+icon: fas fa-book
+order: 3
 ---
+
 > A living list of learning resources I've found genuinely useful. Not ranked, grows over time.
 
 ## AI & LLMs
@@ -18,7 +19,7 @@ permalink: /resources/
 
 ## Software Engineering
 
-- [Python Data Science Handbook](https://jakevdk.github.io/PythonDataScienceHandbook/) — Jake VanderPlas, free online
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) — Jake VanderPlas, free online
 - [Learn You Some Erlang](https://learnyousomeerlang.com/content) — Erlang fundamentals, free online
 - [Elixir Getting Started](https://elixir-lang.org/getting-started/introduction.html) — official Elixir tutorial
 - [Kaggle](https://www.kaggle.com/) — datasets, competitions, free courses

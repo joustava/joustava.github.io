@@ -1,7 +1,8 @@
 ---
-layout: single
 title: Creating a PACT with Swift
 date: 2020-03-08 18:11 +0100
+categories: [programming, testing]
+tags: [Swift, PACT, Docker, Node.js]
 ---
 [Fast, easy and reliable testing for your APIs and microservices during development](https://docs.pact.io/)' is the tag line for Pact. This sure sounds promising, but how does it impact the development of client applications that use these services? This post will give some basic overview what is needed for a Swift client of an http service. The code for this article can be found from this [repo](joustava_act-article-example-project)
 

@@ -1,14 +1,11 @@
 ---
 title: My new woodworking hobby
-description: My first real wood working project
-tags:
-- Wood working projects
-- Beginner
-- Hobby
-- Flower Pot
+description: My first real woodworking project — a flower pot stand
+categories: [making, woodworking]
+tags: [woodworking, hobby]
 toc: false
-header:
-  image: "/assets/flower-pot-stand/2020-08-23 14.42.57.jpg"
+image:
+  path: "/assets/flower-pot-stand/2020-08-23 14.42.57.jpg"
 date: 2021-11-30 00:30 +0200
 ---
 I never really got into a new hobby until I stepped into one wood working course at [Woodworking Academy](https://woodworkacademy.berlin/) in August 2020. There I made my first real little project: a flower pot stand. Why start writing about it now? Just to keep a journal of sorts of what I have made and share it with the world (I guess).

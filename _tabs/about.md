@@ -1,7 +1,8 @@
 ---
-title: About
-permalink: /about/
+icon: fas fa-user
+order: 1
 ---
+
 This blog is an amalgamation of notes I make while working on spare-time projects or new things I learn.
 
 I've been active in the software industry for over 14 years, building backend systems and the occasional prototype in C, JavaScript, Ruby, Elixir and Docker — with some Vue.js and React sprinkled in.
