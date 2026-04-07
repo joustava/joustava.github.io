@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 'AVR Programming: Blinking an LED'
 #abbrlink: 4c554f17
 tags:

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: 'Onion Omega: List of resources for the first board'
 #abbrlink: c54c7933
 tags:

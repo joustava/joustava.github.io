@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Code Quality
 ---
 I’ve been working full-time in the IT industry for about 10 years as a software engineer in both big and small projects built with different technologies. I’ve seen open source projects, startup projects and enterprise software. I might have been very unlucky but to me it seems that often open source software is of much better quality then proprietary software.
