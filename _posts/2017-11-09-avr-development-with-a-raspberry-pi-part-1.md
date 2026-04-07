@@ -1,7 +1,7 @@
 ---
 title: "AVR development part 1: Setting up the Raspberry Pi"
 categories: [hardware, avr]
-tags: [avr, raspberry, electronics]
+tags: [AVR, Raspberry Pi, electronics]
 date: 2017-11-09 17:59:31 +0100
 ---
 

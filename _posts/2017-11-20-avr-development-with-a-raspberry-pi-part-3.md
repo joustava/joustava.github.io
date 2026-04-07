@@ -1,7 +1,7 @@
 ---
 title: "AVR development part 3: Building AVR firmware with make"
 categories: [hardware, avr]
-tags: [avr, raspberry, electronics, cli]
+tags: [AVR, Raspberry Pi, electronics, CLI]
 date: 2017-11-20 08:34:08
 ---
 

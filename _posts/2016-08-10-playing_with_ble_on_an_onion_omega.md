@@ -2,7 +2,7 @@
 title: Onion Omega and BLE
 description: Setting up an Onion Omega as BlueTooth LE beacon
 categories: [hardware, iot]
-tags: [BLE, Bluetooth, OnionOmega, OpenWRT, IoT]
+tags: [BLE, Bluetooth, Onion Omega, OpenWrt, IoT]
 date: 2016-08-10 12:54:32
 ---
 A while back I backed the [Onion Omega](https://onion.io/) on Kickstarter and I finally received all the components.
