@@ -1,19 +1,12 @@
 ---
-title: Now
-permalink: /now/
+title: Currently
+permalink: /currently/
 last_modified_at: 2026-04-07
----
-*What I'm up to right now. Updated occasionally — [what is a now page?](https://nownownow.com/about)*
-
 ---
 
 **Building**
 
 Working on an AVR-based outdoor lighting project — custom PCB, C firmware, and Bluetooth LE for control. The kind of project that starts simple and grows tentacles.
-
-**Reading**
-
-Splitting time between Elixir and AI engineering books. Plenty of overlap in terms of thinking about concurrency, fault tolerance and how systems behave under load.
 
 **Cycling**
 

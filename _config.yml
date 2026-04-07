@@ -97,7 +97,6 @@ defaults:
       toc: true
       toc_sticky: true
 
-twitter_username: joustava
 github_username: joustava
 
 # Build settings
@@ -108,9 +107,6 @@ minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "di
 # In technical material, the average reading rate is approx 50 to 75 words a minute roughly 5 to 6 minutes per page.
 words_per_minute: 100
 search: true
-twitter:
-  username: "joustava"
-
 # analytics: disabled — UA was sunset in 2023, configure GA4 or Plausible when ready
 # comments: disabled — Disqus removed (ads/tracking); consider giscus or utterances later
 category_archive:
