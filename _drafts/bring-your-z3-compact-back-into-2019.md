@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Sony xperia Z3 Compact back to the Future!
 description: bring your Z3 Compact back into 2020
 tags: 
