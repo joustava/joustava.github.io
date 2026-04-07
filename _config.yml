@@ -27,7 +27,17 @@ avatar: /assets/images/me/joost.jpg
 toc: true
 
 comments:
-  provider: ""
+  provider: giscus
+  giscus:
+    repo: joustava/joustava.github.io
+    repo_id: MDEwOlJlcG9zaXRvcnkxMDg2NzYxMDA=
+    category: Announcements
+    category_id: DIC_kwDOBnpEBM4C6SLG
+    mapping: pathname
+    strict: 0
+    input_position: top
+    lang: en
+    reactions_enabled: 1
 
 paginate: 10
 paginate_path: "/page:num/"
@@ -54,7 +64,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: false
+      comments: true
       toc: true
   - scope:
       path: _drafts
