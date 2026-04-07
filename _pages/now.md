@@ -7,22 +7,22 @@ last_modified_at: 2026-04-07
 
 ---
 
-**Building / tinkering**
+**Building**
 
-<!-- What hardware or software project are you currently working on? -->
+Working on an AVR-based outdoor lighting project — custom PCB, C firmware, and Bluetooth LE for control. The kind of project that starts simple and grows tentacles.
 
 **Reading**
 
-<!-- What book or resource are you currently reading? -->
+Splitting time between Elixir and AI engineering books. Plenty of overlap in terms of thinking about concurrency, fault tolerance and how systems behave under load.
 
 **Cycling**
 
-<!-- Season started? Any rides or goals? -->
+Still waiting. Too cold in Pirkanmaa to be anything but optimistic about it.
 
 **Forestry**
 
-<!-- Any recent forest work or learning? -->
+Taking a forestry management course — learning how to read forest health, plan harvests, and generally not ruin the land you're responsible for.
 
 **AI / LLMs**
 
-<!-- Any experiments or tools you're exploring? -->
+Exploring different uses in day-to-day work and hobby projects. Also dusting off some old dormant projects and seeing what becomes possible now.
