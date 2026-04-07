@@ -1,7 +1,8 @@
 ---
-layout: single
 title: Making friends with Swift, part 3
 date: 2020-03-01 18:10 +0100
+categories: [programming, swift]
+tags: [Swift, FP, TDD]
 ---
 As promised [previously]({ post_url 2020-02-22-making-friends-with-swift-part-2 }), we'll look at some things we could improve in our current state of the project and add some more functionality.
 

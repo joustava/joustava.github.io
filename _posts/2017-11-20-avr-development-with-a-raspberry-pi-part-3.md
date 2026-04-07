@@ -1,14 +1,7 @@
 ---
-title: AVR development part 3
-subtitle: Building AVR firmware with make
-tags:
-  - avr
-  - Raspberry
-  - vim
-  - cli
-  - electronics
-  - hello-avr
-series: hello-avr
+title: "AVR development part 3: Building AVR firmware with make"
+categories: [hardware, avr]
+tags: [avr, raspberry, electronics, cli]
 date: 2017-11-20 08:34:08
 ---
 
