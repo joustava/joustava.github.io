@@ -2,11 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Now"
-    url: /now/
-  - title: "Resources"
-    url: /resources/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Currently"
+    url: /currently/
+  - title: "Contact"
+    url: /contact/
