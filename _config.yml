@@ -158,7 +158,7 @@ include: ["_pages", "_layouts"]
 #
 exclude:
   - README.md
-  - Makefile
+  - justfile
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
