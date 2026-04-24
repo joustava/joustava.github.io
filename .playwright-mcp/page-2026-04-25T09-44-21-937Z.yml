@@ -1,0 +1,122 @@
+- generic [active] [ref=e1]:
+  - complementary "Sidebar" [ref=e2]:
+    - generic [ref=e3]:
+      - link "avatar" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "avatar" [ref=e5]
+      - link "Joost Oostdijk" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=e7]: Notes on software, hardware, AI, cycling, forestry and whatever else I'm tinkering with.
+    - navigation [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "HOME" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e13]: HOME
+        - listitem [ref=e14]:
+          - link "ABOUT" [ref=e15] [cursor=pointer]:
+            - /url: /about/
+            - generic [ref=e17]: ABOUT
+        - listitem [ref=e18]:
+          - link "CURRENTLY" [ref=e19] [cursor=pointer]:
+            - /url: /currently/
+            - generic [ref=e21]: CURRENTLY
+        - listitem [ref=e22]:
+          - link "RESOURCES" [ref=e23] [cursor=pointer]:
+            - /url: /resources/
+            - generic [ref=e25]: RESOURCES
+    - generic [ref=e26]:
+      - button "Switch Mode" [ref=e27] [cursor=pointer]
+      - link "github" [ref=e30] [cursor=pointer]:
+        - /url: https://github.com/joustava
+      - link "linkedin" [ref=e32] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/joostoostdijk/
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - banner "Top Bar" [ref=e36]:
+        - generic [ref=e37]:
+          - navigation "Breadcrumb" [ref=e38]:
+            - generic [ref=e39]:
+              - link "Home" [ref=e40] [cursor=pointer]:
+                - /url: /
+              - text: ›
+            - text: Currently
+          - search [ref=e41]:
+            - searchbox "search" [ref=e43]
+      - generic [ref=e44]:
+        - main "Main Content" [ref=e45]:
+          - article [ref=e46]:
+            - heading "Currently" [level=1] [ref=e47]
+            - generic [ref=e48]:
+              - paragraph [ref=e49]:
+                - strong [ref=e50]: Building —
+                - text: Working on an AVR-based outdoor lighting project — custom PCB, C firmware, and Bluetooth LE for control. The kind of project that starts simple and grows tentacles.
+              - paragraph [ref=e51]:
+                - strong [ref=e52]: Cycling —
+                - text: Still waiting. Too cold in Pirkanmaa to be anything but optimistic about it.
+              - paragraph [ref=e53]:
+                - strong [ref=e54]: Forestry —
+                - text: Taking a forestry management course — understanding forest health, planning harvests, and generally not ruining the land you’re responsible for.
+              - paragraph [ref=e55]:
+                - strong [ref=e56]: AI / LLMs —
+                - text: Exploring different uses in day-to-day work and hobby projects. Also dusting off some old dormant projects and seeing what becomes possible now.
+        - complementary "Panel" [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - heading "Recently Updated" [level=2] [ref=e60]
+              - list [ref=e61]:
+                - listitem [ref=e62]:
+                  - link "My new woodworking hobby" [ref=e63] [cursor=pointer]:
+                    - /url: /making/woodworking/2021/11/30/my-new-woodworking-hobby.html
+                - listitem [ref=e64]:
+                  - link "Raspberry Pi camera setup" [ref=e65] [cursor=pointer]:
+                    - /url: /hardware/raspberry-pi/2020/11/01/raspberry-pi-camera-setup-notes.html
+                - listitem [ref=e66]:
+                  - 'link "AVR development part 3: Building AVR firmware with make" [ref=e67] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/20/avr-development-with-a-raspberry-pi-part-3.html
+                - listitem [ref=e68]:
+                  - 'link "AVR development part 2: Flashing the Atmel AVR ATtiny85" [ref=e69] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-2.html
+                - listitem [ref=e70]:
+                  - 'link "AVR development part 1: Setting up the Raspberry Pi" [ref=e71] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-1.html
+            - generic [ref=e72]:
+              - heading "Trending Tags" [level=2] [ref=e73]
+              - generic [ref=e74]:
+                - link "Raspberry Pi" [ref=e75] [cursor=pointer]:
+                  - /url: /tags/raspberry-pi/
+                - link "AVR" [ref=e76] [cursor=pointer]:
+                  - /url: /tags/avr/
+                - link "electronics" [ref=e77] [cursor=pointer]:
+                  - /url: /tags/electronics/
+                - link "Onion Omega" [ref=e78] [cursor=pointer]:
+                  - /url: /tags/onion-omega/
+                - link "OpenWrt" [ref=e79] [cursor=pointer]:
+                  - /url: /tags/openwrt/
+                - link "BLE" [ref=e80] [cursor=pointer]:
+                  - /url: /tags/ble/
+                - link "Bluetooth" [ref=e81] [cursor=pointer]:
+                  - /url: /tags/bluetooth/
+                - link "CLI" [ref=e82] [cursor=pointer]:
+                  - /url: /tags/cli/
+                - link "hobby" [ref=e83] [cursor=pointer]:
+                  - /url: /tags/hobby/
+                - link "IoT" [ref=e84] [cursor=pointer]:
+                  - /url: /tags/iot/
+      - contentinfo "Site Info" [ref=e87]:
+        - paragraph [ref=e88]:
+          - text: ©
+          - time [ref=e89]: "2026"
+          - link "Joost Oostdijk" [ref=e90] [cursor=pointer]:
+            - /url: https://github.com/joustava
+          - text: . Some rights reserved.
+        - paragraph [ref=e91]:
+          - text: Using the
+          - link "Chirpy" [ref=e92] [cursor=pointer]:
+            - /url: https://github.com/cotes2020/jekyll-theme-chirpy
+          - text: theme for
+          - link "Jekyll" [ref=e93] [cursor=pointer]:
+            - /url: https://jekyllrb.com
+          - text: .
+      - text: "# # # # # # # # # #"
+    - complementary "Scroll to Top"

@@ -1,0 +1,110 @@
+- generic [active] [ref=e1]:
+  - complementary "Sidebar" [ref=e2]:
+    - generic [ref=e3]:
+      - link "avatar" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "avatar" [ref=e5]
+      - link "Joost Oostdijk" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=e7]: Notes on software, hardware, AI, cycling, forestry and whatever else I'm tinkering with.
+    - navigation [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "HOME" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e13]: HOME
+        - listitem [ref=e14]:
+          - link "ABOUT" [ref=e15] [cursor=pointer]:
+            - /url: /about/
+            - generic [ref=e17]: ABOUT
+        - listitem [ref=e18]:
+          - link "CURRENTLY" [ref=e19] [cursor=pointer]:
+            - /url: /currently/
+            - generic [ref=e21]: CURRENTLY
+        - listitem [ref=e22]:
+          - link "RESOURCES" [ref=e23] [cursor=pointer]:
+            - /url: /resources/
+            - generic [ref=e25]: RESOURCES
+    - generic [ref=e26]:
+      - button "Switch Mode" [ref=e27] [cursor=pointer]
+      - link "github" [ref=e30] [cursor=pointer]:
+        - /url: https://github.com/joustava
+      - link "linkedin" [ref=e32] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/joostoostdijk/
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - banner "Top Bar" [ref=e36]:
+        - generic [ref=e37]:
+          - navigation "Breadcrumb" [ref=e38]:
+            - generic [ref=e39]:
+              - link "Home" [ref=e40] [cursor=pointer]:
+                - /url: /
+              - text: ›
+            - text: "404: Page not found"
+          - search [ref=e41]:
+            - searchbox "search" [ref=e43]
+      - generic [ref=e44]:
+        - main "Main Content" [ref=e45]:
+          - article [ref=e46]:
+            - 'heading "404: Page not found" [level=1] [ref=e47]'
+            - paragraph [ref=e49]: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+        - complementary "Panel" [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - heading "Recently Updated" [level=2] [ref=e53]
+              - list [ref=e54]:
+                - listitem [ref=e55]:
+                  - link "My new woodworking hobby" [ref=e56] [cursor=pointer]:
+                    - /url: /making/woodworking/2021/11/30/my-new-woodworking-hobby.html
+                - listitem [ref=e57]:
+                  - link "Raspberry Pi camera setup" [ref=e58] [cursor=pointer]:
+                    - /url: /hardware/raspberry-pi/2020/11/01/raspberry-pi-camera-setup-notes.html
+                - listitem [ref=e59]:
+                  - 'link "AVR development part 3: Building AVR firmware with make" [ref=e60] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/20/avr-development-with-a-raspberry-pi-part-3.html
+                - listitem [ref=e61]:
+                  - 'link "AVR development part 2: Flashing the Atmel AVR ATtiny85" [ref=e62] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-2.html
+                - listitem [ref=e63]:
+                  - 'link "AVR development part 1: Setting up the Raspberry Pi" [ref=e64] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-1.html
+            - generic [ref=e65]:
+              - heading "Trending Tags" [level=2] [ref=e66]
+              - generic [ref=e67]:
+                - link "Raspberry Pi" [ref=e68] [cursor=pointer]:
+                  - /url: /tags/raspberry-pi/
+                - link "AVR" [ref=e69] [cursor=pointer]:
+                  - /url: /tags/avr/
+                - link "electronics" [ref=e70] [cursor=pointer]:
+                  - /url: /tags/electronics/
+                - link "Onion Omega" [ref=e71] [cursor=pointer]:
+                  - /url: /tags/onion-omega/
+                - link "OpenWrt" [ref=e72] [cursor=pointer]:
+                  - /url: /tags/openwrt/
+                - link "BLE" [ref=e73] [cursor=pointer]:
+                  - /url: /tags/ble/
+                - link "Bluetooth" [ref=e74] [cursor=pointer]:
+                  - /url: /tags/bluetooth/
+                - link "CLI" [ref=e75] [cursor=pointer]:
+                  - /url: /tags/cli/
+                - link "hobby" [ref=e76] [cursor=pointer]:
+                  - /url: /tags/hobby/
+                - link "IoT" [ref=e77] [cursor=pointer]:
+                  - /url: /tags/iot/
+      - contentinfo "Site Info" [ref=e80]:
+        - paragraph [ref=e81]:
+          - text: ©
+          - time [ref=e82]: "2026"
+          - link "Joost Oostdijk" [ref=e83] [cursor=pointer]:
+            - /url: https://github.com/joustava
+          - text: . Some rights reserved.
+        - paragraph [ref=e84]:
+          - text: Using the
+          - link "Chirpy" [ref=e85] [cursor=pointer]:
+            - /url: https://github.com/cotes2020/jekyll-theme-chirpy
+          - text: theme for
+          - link "Jekyll" [ref=e86] [cursor=pointer]:
+            - /url: https://jekyllrb.com
+          - text: .
+      - text: "# # # # # # # # # #"
+    - complementary "Scroll to Top"

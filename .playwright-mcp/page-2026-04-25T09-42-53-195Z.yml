@@ -1,0 +1,176 @@
+- generic [active] [ref=e1]:
+  - complementary "Sidebar" [ref=e2]:
+    - generic [ref=e3]:
+      - link "avatar" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "avatar" [ref=e5]
+      - link "Joost Oostdijk" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=e7]: Notes on software, hardware, AI, cycling, forestry and whatever else I'm tinkering with.
+    - navigation [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "HOME" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e13]: HOME
+        - listitem [ref=e14]:
+          - link "ABOUT" [ref=e15] [cursor=pointer]:
+            - /url: /about/
+            - generic [ref=e17]: ABOUT
+        - listitem [ref=e18]:
+          - link "CURRENTLY" [ref=e19] [cursor=pointer]:
+            - /url: /currently/
+            - generic [ref=e21]: CURRENTLY
+        - listitem [ref=e22]:
+          - link "RESOURCES" [ref=e23] [cursor=pointer]:
+            - /url: /resources/
+            - generic [ref=e25]: RESOURCES
+    - generic [ref=e26]:
+      - button "Switch Mode" [ref=e27] [cursor=pointer]
+      - link "github" [ref=e30] [cursor=pointer]:
+        - /url: https://github.com/joustava
+      - link "linkedin" [ref=e32] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/joostoostdijk/
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - banner "Top Bar" [ref=e36]:
+        - generic [ref=e37]:
+          - navigation "Breadcrumb" [ref=e38]: Home
+          - search [ref=e39]:
+            - searchbox "search" [ref=e41]
+      - generic [ref=e42]:
+        - main "Main Content" [ref=e43]:
+          - generic [ref=e44]:
+            - article [ref=e45]:
+              - link "Preview Image My new woodworking hobby My first real woodworking project — a flower pot stand Nov 30, 2021 making, woodworking" [ref=e46] [cursor=pointer]:
+                - /url: /making/woodworking/2021/11/30/my-new-woodworking-hobby.html
+                - img "Preview Image" [ref=e49]
+                - generic [ref=e51]:
+                  - heading "My new woodworking hobby" [level=1] [ref=e52]
+                  - paragraph [ref=e54]: My first real woodworking project — a flower pot stand
+                  - generic [ref=e56]:
+                    - time [ref=e58]: Nov 30, 2021
+                    - text: making, woodworking
+            - article [ref=e60]:
+              - link "Raspberry Pi camera setup The dark tinkering months have started again, and so I bought a 5 Mega pixel camera for my Raspberry Pi to use for learing OpenCV with Python. This article is a summary of how to set up the camera ... Nov 1, 2020 hardware, raspberry-pi" [ref=e61] [cursor=pointer]:
+                - /url: /hardware/raspberry-pi/2020/11/01/raspberry-pi-camera-setup-notes.html
+                - generic [ref=e63]:
+                  - heading "Raspberry Pi camera setup" [level=1] [ref=e64]
+                  - paragraph [ref=e66]: The dark tinkering months have started again, and so I bought a 5 Mega pixel camera for my Raspberry Pi to use for learing OpenCV with Python. This article is a summary of how to set up the camera ...
+                  - generic [ref=e68]:
+                    - time [ref=e70]: Nov 1, 2020
+                    - text: hardware, raspberry-pi
+            - article [ref=e72]:
+              - 'link "AVR development part 3: Building AVR firmware with make As I the days start to grow darker again, I was looking around for some interesting things to do with all the electronic ‘crap’ I have lying around and about in the house, and I came up with writin... Nov 20, 2017 hardware, avr" [ref=e73] [cursor=pointer]':
+                - /url: /hardware/avr/2017/11/20/avr-development-with-a-raspberry-pi-part-3.html
+                - generic [ref=e75]:
+                  - 'heading "AVR development part 3: Building AVR firmware with make" [level=1] [ref=e76]'
+                  - paragraph [ref=e78]: As I the days start to grow darker again, I was looking around for some interesting things to do with all the electronic ‘crap’ I have lying around and about in the house, and I came up with writin...
+                  - generic [ref=e80]:
+                    - time [ref=e82]: Nov 20, 2017
+                    - text: hardware, avr
+            - article [ref=e84]:
+              - 'link "AVR development part 2: Flashing the Atmel AVR ATtiny85 As I the days start to grow darker again, I was looking around for some interesting things to do with all the electronic ‘crap’ I have lying around and about in the house, and I came up with writin... Nov 9, 2017 hardware, avr" [ref=e85] [cursor=pointer]':
+                - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-2.html
+                - generic [ref=e87]:
+                  - 'heading "AVR development part 2: Flashing the Atmel AVR ATtiny85" [level=1] [ref=e88]'
+                  - paragraph [ref=e90]: As I the days start to grow darker again, I was looking around for some interesting things to do with all the electronic ‘crap’ I have lying around and about in the house, and I came up with writin...
+                  - generic [ref=e92]:
+                    - time [ref=e94]: Nov 9, 2017
+                    - text: hardware, avr
+            - article [ref=e96]:
+              - 'link "AVR development part 1: Setting up the Raspberry Pi As I the days start to grow darker again, I was looking around for some interesting things to do with all the electronic ‘crap’ I have lying around and about in the house, and I came up with writin... Nov 9, 2017 hardware, avr" [ref=e97] [cursor=pointer]':
+                - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-1.html
+                - generic [ref=e99]:
+                  - 'heading "AVR development part 1: Setting up the Raspberry Pi" [level=1] [ref=e100]'
+                  - paragraph [ref=e102]: As I the days start to grow darker again, I was looking around for some interesting things to do with all the electronic ‘crap’ I have lying around and about in the house, and I came up with writin...
+                  - generic [ref=e104]:
+                    - time [ref=e106]: Nov 9, 2017
+                    - text: hardware, avr
+            - article [ref=e108]:
+              - link "Service configuration with procd Service configuration with procd May 20, 2017 hardware, iot" [ref=e109] [cursor=pointer]:
+                - /url: /hardware/iot/2017/05/20/service-configuration-with-procd.html
+                - generic [ref=e111]:
+                  - heading "Service configuration with procd" [level=1] [ref=e112]
+                  - paragraph [ref=e114]: Service configuration with procd
+                  - generic [ref=e116]:
+                    - time [ref=e118]: May 20, 2017
+                    - text: hardware, iot
+            - article [ref=e120]:
+              - link "Developing with an Onion Omega Setting up a simple development environment for Onion Omega May 12, 2017 hardware, iot" [ref=e121] [cursor=pointer]:
+                - /url: /hardware/iot/2017/05/12/onion-omega-dev-setup.html
+                - generic [ref=e123]:
+                  - heading "Developing with an Onion Omega" [level=1] [ref=e124]
+                  - paragraph [ref=e126]: Setting up a simple development environment for Onion Omega
+                  - generic [ref=e128]:
+                    - time [ref=e130]: May 12, 2017
+                    - text: hardware, iot
+            - article [ref=e132]:
+              - link "Onion Omega and BLE Setting up an Onion Omega as BlueTooth LE beacon Aug 10, 2016 hardware, iot" [ref=e133] [cursor=pointer]:
+                - /url: /hardware/iot/2016/08/10/playing_with_ble_on_an_onion_omega.html
+                - generic [ref=e135]:
+                  - heading "Onion Omega and BLE" [level=1] [ref=e136]
+                  - paragraph [ref=e138]: Setting up an Onion Omega as BlueTooth LE beacon
+                  - generic [ref=e140]:
+                    - time [ref=e142]: Aug 10, 2016
+                    - text: hardware, iot
+        - complementary "Panel" [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - heading "Recently Updated" [level=2] [ref=e147]
+              - list [ref=e148]:
+                - listitem [ref=e149]:
+                  - link "My new woodworking hobby" [ref=e150] [cursor=pointer]:
+                    - /url: /making/woodworking/2021/11/30/my-new-woodworking-hobby.html
+                - listitem [ref=e151]:
+                  - link "Raspberry Pi camera setup" [ref=e152] [cursor=pointer]:
+                    - /url: /hardware/raspberry-pi/2020/11/01/raspberry-pi-camera-setup-notes.html
+                - listitem [ref=e153]:
+                  - 'link "AVR development part 3: Building AVR firmware with make" [ref=e154] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/20/avr-development-with-a-raspberry-pi-part-3.html
+                - listitem [ref=e155]:
+                  - 'link "AVR development part 2: Flashing the Atmel AVR ATtiny85" [ref=e156] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-2.html
+                - listitem [ref=e157]:
+                  - 'link "AVR development part 1: Setting up the Raspberry Pi" [ref=e158] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-1.html
+            - generic [ref=e159]:
+              - heading "Trending Tags" [level=2] [ref=e160]
+              - generic [ref=e161]:
+                - link "Raspberry Pi" [ref=e162] [cursor=pointer]:
+                  - /url: /tags/raspberry-pi/
+                - link "AVR" [ref=e163] [cursor=pointer]:
+                  - /url: /tags/avr/
+                - link "electronics" [ref=e164] [cursor=pointer]:
+                  - /url: /tags/electronics/
+                - link "Onion Omega" [ref=e165] [cursor=pointer]:
+                  - /url: /tags/onion-omega/
+                - link "OpenWrt" [ref=e166] [cursor=pointer]:
+                  - /url: /tags/openwrt/
+                - link "BLE" [ref=e167] [cursor=pointer]:
+                  - /url: /tags/ble/
+                - link "Bluetooth" [ref=e168] [cursor=pointer]:
+                  - /url: /tags/bluetooth/
+                - link "CLI" [ref=e169] [cursor=pointer]:
+                  - /url: /tags/cli/
+                - link "hobby" [ref=e170] [cursor=pointer]:
+                  - /url: /tags/hobby/
+                - link "IoT" [ref=e171] [cursor=pointer]:
+                  - /url: /tags/iot/
+      - contentinfo "Site Info" [ref=e174]:
+        - paragraph [ref=e175]:
+          - text: ©
+          - time [ref=e176]: "2026"
+          - link "Joost Oostdijk" [ref=e177] [cursor=pointer]:
+            - /url: https://github.com/joustava
+          - text: . Some rights reserved.
+        - paragraph [ref=e178]:
+          - text: Using the
+          - link "Chirpy" [ref=e179] [cursor=pointer]:
+            - /url: https://github.com/cotes2020/jekyll-theme-chirpy
+          - text: theme for
+          - link "Jekyll" [ref=e180] [cursor=pointer]:
+            - /url: https://jekyllrb.com
+          - text: .
+      - text: "# # # # # # # # # #"
+    - complementary "Scroll to Top"
