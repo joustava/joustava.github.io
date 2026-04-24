@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - complementary "Sidebar" [ref=e2]:
+    - generic [ref=e3]:
+      - link "avatar" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "avatar" [ref=e5]
+      - link "Joost Oostdijk" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=e7]: Notes on software, hardware, AI, cycling, forestry and whatever else I'm tinkering with.
+    - navigation [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "HOME" [ref=e11] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e13]: HOME
+        - listitem [ref=e14]:
+          - link "ABOUT" [ref=e15] [cursor=pointer]:
+            - /url: /about/
+            - generic [ref=e17]: ABOUT
+        - listitem [ref=e18]:
+          - link "CURRENTLY" [ref=e19] [cursor=pointer]:
+            - /url: /currently/
+            - generic [ref=e21]: CURRENTLY
+        - listitem [ref=e22]:
+          - link "RESOURCES" [ref=e23] [cursor=pointer]:
+            - /url: /resources/
+            - generic [ref=e25]: RESOURCES
+    - generic [ref=e26]:
+      - button "Switch Mode" [ref=e27] [cursor=pointer]
+      - link "github" [ref=e30] [cursor=pointer]:
+        - /url: https://github.com/joustava
+      - link "linkedin" [ref=e32] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/joostoostdijk/
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - banner "Top Bar" [ref=e36]:
+        - generic [ref=e37]:
+          - navigation "Breadcrumb" [ref=e38]:
+            - generic [ref=e39]:
+              - link "Home" [ref=e40] [cursor=pointer]:
+                - /url: /
+              - text: ›
+            - text: My new woodworking hobby
+          - search [ref=e41]:
+            - searchbox "search" [ref=e43]
+      - generic [ref=e44]:
+        - main "Main Content" [ref=e45]:
+          - article [ref=e46]:
+            - generic [ref=e47]:
+              - heading "My new woodworking hobby" [level=1] [ref=e48]
+              - paragraph [ref=e49]: My first real woodworking project — a flower pot stand
+              - generic [ref=e50]:
+                - generic [ref=e51]:
+                  - text: Posted
+                  - time [ref=e52]: Nov 30, 2021
+                - link "Preview Image" [ref=e54] [cursor=pointer]:
+                  - /url: /assets/flower-pot-stand/2020-08-23 14.42.57.jpg
+                  - img "Preview Image" [ref=e55]
+                - generic [ref=e56]:
+                  - generic [ref=e57]:
+                    - text: By
+                    - emphasis [ref=e58]:
+                      - link "Joost Oostdijk" [ref=e59] [cursor=pointer]:
+                        - /url: https://github.com/joustava
+                  - generic [ref=e61]:
+                    - emphasis [ref=e62]: 1 min
+                    - text: read
+            - generic [ref=e63]:
+              - paragraph [ref=e64]:
+                - text: I never really got into a new hobby until I stepped into one wood working course at
+                - link "Woodworking Academy" [ref=e65] [cursor=pointer]:
+                  - /url: https://woodworkacademy.berlin/
+                - text: "in August 2020. There I made my first real little project: a flower pot stand. Why start writing about it now? Just to keep a journal of sorts of what I have made and share it with the world (I guess)."
+              - paragraph [ref=e66]: The flower pots are some cheap brand bought at an Edeka Supermarket in Berlin and had them already for a while before the academy, but no matter the price, I liked them because of their pastel colors which in the end suited the plain pine wood color.
+              - paragraph [ref=e67]:
+                - link "Flower pot stand side view without plants" [ref=e68]:
+                  - /url: /assets/flower-pot-stand/2020-08-22 20.01.28.jpg
+                  - img "Flower pot stand side view without plants" [ref=e69]
+              - paragraph [ref=e70]:
+                - text: To finish it off, the pots of course need to house some plants. I chose
+                - link "succulents" [ref=e71] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Succulent_plant
+                - text: as they require little upkeep, grow relatively slow and of course look very nice.
+              - paragraph [ref=e72]:
+                - link "Flower pot stand front view with plants" [ref=e73]:
+                  - /url: /assets/flower-pot-stand/2020-08-22 21.02.25.jpg
+                  - img "Flower pot stand front view with plants" [ref=e74]
+              - paragraph [ref=e75]: The design of the flower pot stand is my own. The holes for the pots were pre-sawn with a jig saw and cut to precision with a router with the use of a template mounted on the wood with double sided tape. The holes sizes were made so that the pots would protrude as far as possible without touching the bottom shelve. The parts are glued and screwed together. The screws are mounted in pocket holes which are closed off with little wooden ‘corks’ glued into the holes.
+              - paragraph [ref=e76]:
+                - link "Flower pot stand side view with plants" [ref=e77]:
+                  - /url: /assets/flower-pot-stand/2020-08-23 14.42.57.jpg
+                  - img "Flower pot stand side view with plants" [ref=e78]
+              - paragraph [ref=e79]: This was a really nice weekend project and only needs one pine board. If there is enough interest I will measure it and update this post with some rough design sketches. Currently the piece is adorning the office room of my lovely wife.
+              - paragraph [ref=e80]:
+                - link "Flower pot stand current use" [ref=e81]:
+                  - /url: /assets/flower-pot-stand/2021-11-27 18.02.08.jpg
+                  - img "Flower pot stand current use" [ref=e82]
+              - paragraph [ref=e83]: Even though the wood has not been treated at all, its color has not faded much, only the original plants have been replaced by more energetic specimen.
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - link "making" [ref=e87] [cursor=pointer]:
+                  - /url: /categories/making/
+                - text: ","
+                - link "woodworking" [ref=e88] [cursor=pointer]:
+                  - /url: /categories/woodworking/
+              - generic [ref=e89]:
+                - link "woodworking" [ref=e91] [cursor=pointer]:
+                  - /url: /tags/woodworking/
+                - link "hobby" [ref=e92] [cursor=pointer]:
+                  - /url: /tags/hobby/
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - text: This post is licensed under
+                  - link "CC BY 4.0" [ref=e95] [cursor=pointer]:
+                    - /url: https://creativecommons.org/licenses/by/4.0/
+                  - text: by the author.
+                - generic [ref=e96]:
+                  - generic [ref=e97]: "Share:"
+                  - button "Copy link" [ref=e99] [cursor=pointer]
+        - complementary "Panel" [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - heading "Recently Updated" [level=2] [ref=e103]
+              - list [ref=e104]:
+                - listitem [ref=e105]:
+                  - link "My new woodworking hobby" [ref=e106] [cursor=pointer]:
+                    - /url: /making/woodworking/2021/11/30/my-new-woodworking-hobby.html
+                - listitem [ref=e107]:
+                  - link "Raspberry Pi camera setup" [ref=e108] [cursor=pointer]:
+                    - /url: /hardware/raspberry-pi/2020/11/01/raspberry-pi-camera-setup-notes.html
+                - listitem [ref=e109]:
+                  - 'link "AVR development part 3: Building AVR firmware with make" [ref=e110] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/20/avr-development-with-a-raspberry-pi-part-3.html
+                - listitem [ref=e111]:
+                  - 'link "AVR development part 2: Flashing the Atmel AVR ATtiny85" [ref=e112] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-2.html
+                - listitem [ref=e113]:
+                  - 'link "AVR development part 1: Setting up the Raspberry Pi" [ref=e114] [cursor=pointer]':
+                    - /url: /hardware/avr/2017/11/09/avr-development-with-a-raspberry-pi-part-1.html
+            - generic [ref=e115]:
+              - heading "Trending Tags" [level=2] [ref=e116]
+              - generic [ref=e117]:
+                - link "Raspberry Pi" [ref=e118] [cursor=pointer]:
+                  - /url: /tags/raspberry-pi/
+                - link "AVR" [ref=e119] [cursor=pointer]:
+                  - /url: /tags/avr/
+                - link "electronics" [ref=e120] [cursor=pointer]:
+                  - /url: /tags/electronics/
+                - link "Onion Omega" [ref=e121] [cursor=pointer]:
+                  - /url: /tags/onion-omega/
+                - link "OpenWrt" [ref=e122] [cursor=pointer]:
+                  - /url: /tags/openwrt/
+                - link "BLE" [ref=e123] [cursor=pointer]:
+                  - /url: /tags/ble/
+                - link "Bluetooth" [ref=e124] [cursor=pointer]:
+                  - /url: /tags/bluetooth/
+                - link "CLI" [ref=e125] [cursor=pointer]:
+                  - /url: /tags/cli/
+                - link "hobby" [ref=e126] [cursor=pointer]:
+                  - /url: /tags/hobby/
+                - link "IoT" [ref=e127] [cursor=pointer]:
+                  - /url: /tags/iot/
+      - generic [ref=e129]:
+        - navigation "Post Navigation" [ref=e130]:
+          - link "Older" [ref=e131] [cursor=pointer]:
+            - /url: /hardware/raspberry-pi/2020/11/01/raspberry-pi-camera-setup-notes.html
+            - text: Older
+            - paragraph [ref=e132]: Raspberry Pi camera setup
+          - generic "Newer" [ref=e133]:
+            - text: Newer
+            - paragraph [ref=e134]: "-"
+        - iframe [ref=e136]
+        - contentinfo "Site Info" [ref=e137]:
+          - paragraph [ref=e138]:
+            - text: ©
+            - time [ref=e139]: "2026"
+            - link "Joost Oostdijk" [ref=e140] [cursor=pointer]:
+              - /url: https://github.com/joustava
+            - text: . Some rights reserved.
+          - paragraph [ref=e141]:
+            - text: Using the
+            - link "Chirpy" [ref=e142] [cursor=pointer]:
+              - /url: https://github.com/cotes2020/jekyll-theme-chirpy
+            - text: theme for
+            - link "Jekyll" [ref=e143] [cursor=pointer]:
+              - /url: https://jekyllrb.com
+            - text: .
+      - text: "# # # # # # # # # #"
+    - complementary "Scroll to Top"
